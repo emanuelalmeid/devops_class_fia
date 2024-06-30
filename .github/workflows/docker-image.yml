@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: emanuelalmeid/app-fia-devops:latest, emanuelalmeid/app-fia-devops:${{ github.run_number }}
+          tags: emanuelalmeida/app-fia-devops:latest, emanuelalmeida/app-fia-devops:${{ github.run_number }}
